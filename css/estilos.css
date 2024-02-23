@@ -544,6 +544,9 @@ a{
     padding-right: 10px;
 
 }
+.links-footer {
+    margin-top: 20px;
+}
 .logos-footer{
     display: flex;
     flex-flow: row wrap;
@@ -556,6 +559,12 @@ a{
 }
 /* Escritorio extra grande */
 @media only screen and (min-width: 1200px){
+    .contenedor-datos {
+        padding: 40px 20px 40px 20px;
+    }
+    .links-footer {
+        margin-top: 20px;
+    }
 }
 /* Escritorio grande */
 @media only screen and (min-width: 992px) and (max-width: 1199px){
