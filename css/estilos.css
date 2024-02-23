@@ -518,12 +518,12 @@ a{
     justify-content: space-evenly;
     background-color: #F26532;
     padding: 3% 20%;
-    font-family: 'Poppins', sans-serif;
-    font-size: 26px;
-    font-weight: 700;
+}
+.contenedor-datos h3 {
     color: #FFFFFF;
     text-align: center;
-    line-height: 32px;
+    margin: 0 auto;
+    max-width: 750px;
 }
 .dataCont{
     display: flex;
@@ -559,7 +559,9 @@ a{
 }
 /* Escritorio extra grande */
 @media only screen and (min-width: 1200px){
-
+    .contenedor-datos {
+        padding: 3% 20%;
+    }
     .links-footer {
         margin-top: 20px;
     }
