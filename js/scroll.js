@@ -2,8 +2,6 @@
 gsap.from('#Inicio', {
     duration:1,
     autoAlpha: 0,
-    y:100,
-    scale:0.5,
     scrollTrigger: {
         trigger: "#Inicio",
         markers: false
